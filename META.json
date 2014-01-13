@@ -1,0 +1,54 @@
+{
+   "abstract" : "Perl extension for asynchronous non-blocking DBI calls in POE",
+   "author" : [
+      "David Davis <xantus@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.133380",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "POE-Component-EasyDBI",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "DBI" : "1.38",
+            "Error" : "0.15",
+            "POE" : "0.20",
+            "Params::Util" : "0",
+            "Scalar::Util" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=POE-Component-EasyDBI"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/gps4net/POE-Component-EasyDBI.git",
+         "web" : "https://github.com/gps4net/POE-Component-EasyDBI"
+      }
+   },
+   "version" : "1.24"
+}
